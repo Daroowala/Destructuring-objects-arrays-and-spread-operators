@@ -111,28 +111,33 @@
 
 
 // Element, idx, define karna ka tariqa
-const arr = ["a", "b", "c", "d"];
+// const arr = ["a", "b", "c", "d"];
 
-arr.forEach(function (element, idx) {
-  console.log(element, idx);
-});
+// arr.forEach(function (element, idx) {
+//   console.log(element, idx);
+// });
 
-for (let ele of arr) {
-  console.log(ele);
-}
-for (let ele of "asdfgh") {
-  console.log(ele);
-}
+// for (let ele of arr) {
+//   console.log(ele);
+// }
+// for (let ele of "asdfgh") {
+//   console.log(ele);
+// }
 
-// // const obj = {
-// //   a: 1,
-// //   b: 3,
-// //   c: 5,
-// // };
 
-// // console.log(Object.keys(obj));
-// // console.log(Object.values(obj));
-// // console.log(Object.entries(obj));
+
+// keys, value, entries define karna ka tariqa
+const obj = {
+  a: 1,
+  b: 3,
+  c: 5,
+};
+
+console.log(Object.keys(obj));
+console.log(Object.values(obj));
+console.log(Object.entries(obj));
+
+
 
 // /* map is an array method takes callback as argument and call that callback for every element of the array to perform operation and return new array */
 
